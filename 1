@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Свойства объектов</h2>
+
+<p>Вы можете удалить свойства объекта.</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+  firstname:"Щипунов",
+  lastname:"Андрей",
+  age:50,
+  eyecolor:"зеленый"
+};
+
+delete person.age;
+document.getElementById("demo").innerHTML =
+person.firstname + " будет " + person.age + " лет.";
+</script>
+
+</body>
+</html>
